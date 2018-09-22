@@ -1,0 +1,19 @@
+{
+  "name": "algos-data_structures",
+  "version": "1.0.0",
+  "description": "Reviewing Algorithms and Data Structures learned at Holberton School",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/biehlerj/algos-data_structures.git"
+  },
+  "author": "Jacob Biehler",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/biehlerj/algos-data_structures/issues"
+  },
+  "homepage": "https://github.com/biehlerj/algos-data_structures#readme"
+}
