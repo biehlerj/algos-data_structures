@@ -1,4 +1,4 @@
-# algos-data_structures
+# Algorithms and Data Structures
 
 ## Introduction
 
@@ -39,5 +39,7 @@ This repository contains projects on:
 ## Author
 
 [Jacob Biehler](https://www.linkedin.com/in/jacob-biehler-475573139/)
+
 [Twitter](https://twitter.com/Biehlerj)
+
 [GitHub](https://github.com/biehlerj)
