@@ -7,6 +7,7 @@ This repository contains the code for work done on reviewing the data structures
 ## Table of Contents
 
 * [About](#about)
+* [Contributing](#contributing)
 * [Author](#author)
 
 ## About
@@ -35,6 +36,10 @@ This repository contains projects on:
 * Queues
 * Hash Tables
 * Binary Trees
+
+## Contributing
+
+If you would like to help me write better algorithms or understand why I wrote the algorithms and/or data structures the way I did feel free to download the contents of this repository and add to the tests I have written. If you find a fault in my algorithm or see I missed an edge case in my tests feel free to make an issue or a pull request with the error you received and what behavior you expected and why. I will update my code and run your tests and will make sure to add you to the CONTRIBUTORS.md file.
 
 ## Author
 
