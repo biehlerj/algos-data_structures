@@ -23,13 +23,13 @@ This repository contains projects on:
 * Selection Sort
 * Quick Sort
 
-2. **Searching Algorithms:**
+1. **Searching Algorithms:**
 
 * Linear Search
 * Binary Search
 * Jump Search
 
-3. **Data Structures:**
+1. **Data Structures:**
 
 * Linked Lists (Singly and Doubly)
 * Stacks
