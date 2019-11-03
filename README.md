@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This repository contains the code for work done on reviewing the data structures and algorithms learned while completing the curriculum at Holberton School. Every algorithm and data structure will be completed in Python, JavaScript, and Go.
+This repository contains the code for work done on reviewing the data structures and algorithms learned while completing the curriculum at Holberton School. Every algorithm and data structure will be completed in Python, JavaScript, and Go. More languages may be added as I strive to learn other languages.
 
 ## Table of Contents
 
@@ -26,11 +26,17 @@ This repository contains projects on:
    2. Binary Search
    3. Jump Search
 3. **Data Structures:**
-   1. Linked Lists (Singly and Doubly)
+   1. Linked Lists
+      1. Singly Linked Lists
+      2. Doubly Linked Lists
+      3. Double Circular Linked Lists
    2. Stacks
    3. Queues
    4. Hash Tables
    5. Binary Trees
+   6. Red-Black Trees
+   7. Graphs
+   8. AVL Tree
 
 ## Contributing
 
