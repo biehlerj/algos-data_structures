@@ -12,7 +12,7 @@ class Node(object):
     def __init__(self, data, prev, next_node):
         self.data = data
         self.prev = prev
-        self.nextNode = next_node
+        self.next_node = next_node
 
 
 class LinkedList(object):
@@ -28,8 +28,8 @@ class LinkedList(object):
             self.head = self.tail = new_node
         else:
             new_node.prev = self.tail
-            new_node.nextNode = None
-            self.tail.nextNode = new_node
+            new_node.next_node = None
+            self.tail.next_node = new_node
             self.tail = new_node
 
     def delete(self, node_value):
@@ -40,17 +40,17 @@ class LinkedList(object):
             if current.data == node_value:
                 if current.prev is not None:
                     if current != self.tail:
-                        current.prev.nextNode = current.nextNode
-                        current.nextNode.prev = current.prev
+                        current.prev.next_node = current.nextNode
+                        current.next_node.prev = current.prev
                     else:
-                        current.prev.nextNode = None
+                        current.prev.next_node = None
                     found = True
                 else:
-                    self.head = current.nextNode
-                    current.nextNode.prev = None
+                    self.head = current.next_node
+                    current.next_node.prev = None
                     found = True
 
-            current = current.nextNode
+            current = current.next_node
 
         if current is None and found is False:
             raise ValueError("Value not in list")
@@ -60,7 +60,7 @@ class LinkedList(object):
         count = 0
         while current is not None:
             count += 1
-            current = current.nextNode
+            current = current.next_node
 
         return count
 
@@ -72,7 +72,7 @@ class LinkedList(object):
             if current.data == node_value:
                 found = True
             else:
-                current = current.nextNode
+                current = current.next_node
 
         if current is None:
             raise ValueError("Value is not in the list")

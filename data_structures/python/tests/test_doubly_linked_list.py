@@ -1,7 +1,9 @@
-import sys
+#!/usr/bin/python3
 import os.path
-from data_structures.python.doubly_linked_list import LinkedList
+import sys
 import unittest
+
+from data_structures.python.doubly_linked_list import LinkedList
 
 sys.path.append(os.path.join(os.path.abspath(os.pardir), "linked_list"))
 

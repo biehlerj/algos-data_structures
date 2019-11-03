@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 import sys
 import os.path
 from data_structures.python.singly_linked_list import LinkedList

@@ -17,25 +17,20 @@ The motivation behind this repo is to review concepts studied at Holberton, but 
 This repository contains projects on:
 
 1. **Sorting Algorithms:**
-
-* Bubble Sort
-* Insertion Sort
-* Selection Sort
-* Quick Sort
-
-1. **Searching Algorithms:**
-
-* Linear Search
-* Binary Search
-* Jump Search
-
-1. **Data Structures:**
-
-* Linked Lists (Singly and Doubly)
-* Stacks
-* Queues
-* Hash Tables
-* Binary Trees
+   1. Bubble Sort
+   2. Insertion Sort
+   3. Selection Sort
+   4. Quick Sort
+2. **Searching Algorithms:**
+   1. Linear Search
+   2. Binary Search
+   3. Jump Search
+3. **Data Structures:**
+   1. Linked Lists (Singly and Doubly)
+   2. Stacks
+   3. Queues
+   4. Hash Tables
+   5. Binary Trees
 
 ## Contributing
 

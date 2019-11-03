@@ -1,4 +1,6 @@
+#!/usr/bin/python3
 import unittest
+
 from data_structures.python.queue import Queue
 
 
@@ -17,7 +19,7 @@ class TestQueue(unittest.TestCase):
         self.queue = Queue(4)
 
     def tearDown(self):
-        self.list = None
+        self.queue = None
 
     def test_enqueue(self):
         correct = [1]

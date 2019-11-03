@@ -1,5 +1,7 @@
-from data_structures.python.stack import Stack
+#!/usr/bin/python3
 import unittest
+
+from data_structures.python.stack import Stack
 
 
 class TestStack(unittest.TestCase):
@@ -17,7 +19,7 @@ class TestStack(unittest.TestCase):
         self.stack = Stack(4)
 
     def tearDown(self):
-        self.list = None
+        self.stack = None
 
     def test_push(self):
         self.stack.push(1)

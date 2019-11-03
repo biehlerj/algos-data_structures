@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 class Stack:
     def __init__(self, max_size: int):
         self.__stack = []
