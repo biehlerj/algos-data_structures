@@ -12,10 +12,11 @@ class TestLinkedList(unittest.TestCase):
     def setUpClass(cls) -> None:
         print('\n\n.............................')
         print('..... Testing Functions .....')
-        print('...... For Stack Class ......')
+        print('...... For Linked List Class ......')
         print('.............................\n\n')
 
     def setUp(self):
+        """Initializes a new instance of a Linked List"""
         self.list = LinkedList()
 
     def tearDown(self):

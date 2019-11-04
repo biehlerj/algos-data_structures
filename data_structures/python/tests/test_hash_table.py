@@ -9,11 +9,11 @@ class TestHashTable(unittest.TestCase):
     def setUpClass(cls) -> None:
         print('\n\n.............................')
         print('..... Testing Functions .....')
-        print('...... For Stack Class ......')
+        print('...... For Hash Table Class ......')
         print('.............................\n\n')
 
     def setUp(self) -> None:
-        """Initializes a new instance of a Stack"""
+        """Initializes a new instance of a Hash Table"""
         self.hash_table = HashTable(50)
 
     def tearDown(self):
