@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This repository contains the code for work done on reviewing the data structures and algorithms learned while completing the curriculum at Holberton School. Every algorithm and data structure will be completed in Python, JavaScript, and Go. More languages may be added as I strive to learn other languages.
+This repository contains the code for work done on reviewing the data structures and algorithms learned. Every algorithm and data structure will be completed in languages other than C.
 
 ## Table of Contents
 
