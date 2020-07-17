@@ -12,7 +12,7 @@ This repository contains the code for work done on reviewing the data structures
 
 ## About
 
-The motivation behind this repo is to review concepts studied at Holberton, but in higher level languages to help keep me fresh and on my toes for interviews.
+The motivation behind this repo is to review concepts studied during my coursework getting a BS in Computer Science, but in higher level languages to help keep me fresh and on my toes for interviews as well as learning languages I'm interested in.
 
 This repository contains projects on:
 
